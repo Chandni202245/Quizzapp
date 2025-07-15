@@ -3,7 +3,7 @@
 A full-featured quiz web application built with **Django**, **Bootstrap**, and **Django REST Framework**.  
 Users can register, log in, take timed quizzes, and view leaderboard rankings.
 
-## 🚀 Features
+## Features
 
 - ✅ User Registration & Login
 - ⏱ Timed Quiz Interface
@@ -12,12 +12,6 @@ Users can register, log in, take timed quizzes, and view leaderboard rankings.
 - 🧾 Instant Score Feedback
 - 🏆 Leaderboard System (Top 10)
 - 🔐 Forgot Password with OTP via Email
-
-## 📸 Screenshots
-
-> Add some screenshots here if possible later!
-
----
 
 ## 🛠️ Tech Stack
 
@@ -28,11 +22,8 @@ Users can register, log in, take timed quizzes, and view leaderboard rankings.
 - SQLite (default)
 - JavaScript (for frontend interactivity)
 
----
 
-## 📦 Setup Instructions
 
-### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Chandni202245/Quizzapp.git
