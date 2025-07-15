@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Handle submission
   document.getElementById("quizForm").addEventListener("submit", function (e) {
     e.preventDefault();
-    clearInterval(interval); // ✅ Stop timer
+    clearInterval(interval); //  Stop timer
 
     let answers = {};
     const inputs = document.querySelectorAll("input[type=radio]:checked");
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         container.appendChild(scoreBlock);
 
-        // ✅ Disable form elements to prevent re-submission
+        //  Disable form elements to prevent re-submission
         document.querySelectorAll("input[type=radio]").forEach(input => input.disabled = true);
         document.querySelector("button[type=submit]").disabled = true;
       })

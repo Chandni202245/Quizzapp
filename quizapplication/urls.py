@@ -7,7 +7,7 @@ router = DefaultRouter()
 router.register(r'quizzes', api_views.QuizViewSet, basename='quiz')
 
 urlpatterns = [
-    # ✅ Homepage shows quiz list
+    #  Homepage shows quiz list
     path('', views.quiz_list_view, name='home'),
 
     # Template Views

@@ -40,7 +40,7 @@ def login_view(request):
             user = form.get_user()
             login(request, user)
 
-            # ✅ Handle "Remember Me"
+            # Handle "Remember Me"
             if not request.POST.get('remember_me'):
                 request.session.set_expiry(0)  # Expires on browser close
             else:
